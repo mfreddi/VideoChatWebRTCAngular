@@ -1,4 +1,12 @@
 # VideoChat
+Video Chat WebRTC + Angular RxJs
+
+Video Chat + Angular RxJs
+
+sample: https://fred-sample-video-chat.herokuapp.com/room/ed11
+
+max 2 users.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
