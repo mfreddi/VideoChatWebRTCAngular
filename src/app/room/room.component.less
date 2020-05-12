@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+}
+.side{
+  width: 300px;
+}
+.main-content{
+  padding-left: 10px;
+  width: 100%;
+  min-width: 315px;
+  position: relative;
+  min-height: 600px;
+}
+.local-video {
+  position: absolute;
+  border: 1px solid #cddfe7;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 200px;
+}
+.remote-video {
+  border: 1px solid #cddfe7;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 767px) {
+  :host {
+    flex-wrap: wrap;
+  }
+  .main-content{
+    padding-left: 0;
+  }
+}
